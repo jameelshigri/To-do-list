@@ -1,0 +1,243 @@
+@import "./base.css";
+
+#app {
+  margin: 0 auto;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: white !important;
+  }
+}
+
+/* Custom Css */
+
+/*NavBar*/
+.navbar {
+  background-color: #42b4f7;
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 8vh;
+}
+
+.navbar img {
+  height: 50px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.navbar ul li {
+  margin-left: 10vh;
+  color: white;
+  font-size: 3.5vh;
+  background-color: #42b4f7;
+}
+.navbar ul li:hover {
+  border-bottom: 2px solid white;
+}
+/*Home and Update*/
+.todo-list {
+  width: 400px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+form {
+  border: 3px solid darkgray;
+  padding: 2vh;
+  /* margin: 0; */
+  border-radius: 0px 0px 8px 8px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 6px;
+  text-align: center;
+  border: 3px solid #ada3a3;
+  text-transform: uppercase;
+  color: tomato;
+  border-radius: 8px 8px 0px 0px;
+}
+ul li span h3 {
+  font-size: 20px;
+  color: #3ae949;
+}
+ul li span h6 {
+  font-size: 16px;
+  color: #414241;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+li span:first-child {
+  flex: 1;
+}
+
+.edit {
+  background-color: #3ae949;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.edit:hover {
+  background-color: #4dadec;
+}
+li button {
+  background-color: lightsalmon;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+li button:hover {
+  background-color: #4dadec;
+}
+
+input[type="text"] {
+  border: 1px solid skyblue;
+  border-radius: 50px;
+  padding: 2vh;
+  margin-right: 8px;
+  font-size: 16px;
+  color: #3ae949;
+  margin-bottom: 8px;
+  width: -webkit-fill-available;
+}
+input[type="date"] {
+  border: 1px solid skyblue;
+  border-radius: 50px;
+  padding: 2vh;
+  margin-right: 8px;
+  font-size: 16px;
+  color: #3ae949;
+  margin-bottom: 8px;
+  width: -webkit-fill-available;
+}
+input[type="time"] {
+  border: 1px solid skyblue;
+  border-radius: 50px;
+  padding: 2vh;
+  font-size: 16px;
+  color: #3ae949;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  width: -webkit-fill-available;
+}
+
+button[type="submit"] {
+  background-color: #3ae949;
+
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 2vh;
+  cursor: pointer;
+  width: -webkit-fill-available;
+}
+
+button[type="submit"]:hover {
+  background-color: #00bac7;
+}
+/*
+fsdgsfgsfdgfdgfdgdfgsdfg
+*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3vh;
+  flex-direction: column;
+}
+/* .container form {
+  width: fit-content;
+  border: 1px solid salmon;
+} */
+.container > input {
+  margin: 1vh;
+  padding: 2vh;
+  border-radius: 50px;
+  border: 1px solid lightblue;
+  width: 30%;
+  -webkit-transition: 0.3s;
+  transition: 0.2s;
+  outline: none;
+}
+.container > button {
+  padding: 2vh;
+  background-color: rgb(13, 177, 241);
+  font-size: 14px;
+  color: white;
+  border-style: none;
+  border-radius: 50px;
+  width: 30%;
+  margin: 1vh;
+}
+.container > input:focus {
+  border: 2px solid rgb(9, 119, 223);
+}
+
+.container > button:hover {
+  background-color: rgb(82, 193, 236);
+}
+.container > h5 {
+  font-size: 40px;
+  color: black;
+}
+
+.container a {
+  padding: 2vh;
+  background-color: rgb(23 223 126);
+  font-size: 14px;
+  color: white;
+  border-style: none;
+  border-radius: 50px;
+  width: 30%;
+  margin: 1vh;
+  text-align: center;
+}
+.container a:hover {
+  background-color: rgb(38, 238, 141);
+}
+.container p {
+  color: rgb(92, 91, 90);
+  font-size: 12px;
+}
+.is-invalid {
+  color: red;
+}

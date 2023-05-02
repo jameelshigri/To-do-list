@@ -1,0 +1,144 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "jamil",
+      "email": "jamell@exapm.com",
+      "password": "1234"
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "name": "Lester Merrill",
+      "email": "vyqojaci@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 11
+    },
+    {
+      "name": "dfdfs",
+      "email": "sdfsf",
+      "password": "sdfsdfs",
+      "id": 12
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 14
+    },
+    {
+      "name": "Jamil Ahmad",
+      "email": "jamell@exapm.com",
+      "password": "123",
+      "id": 15
+    },
+    {
+      "name": "Malik Shigri",
+      "email": "xoxojo5848@superyp.com",
+      "password": "1",
+      "id": 16
+    },
+    {
+      "name": "Jamil ahmad",
+      "email": "Professional mockup Photoshop ",
+      "password": "a",
+      "id": 17
+    },
+    {
+      "name": "Flynn Randolph",
+      "email": "vicevobed@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 18
+    },
+    {
+      "name": "Jamil ahmad",
+      "email": "jamell@exapm.com",
+      "password": "12345",
+      "id": 19
+    },
+    {
+      "name": "Jamil ahmad",
+      "email": "jamell@exapm.com",
+      "password": "1234",
+      "id": 20
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Eu aut odit qui in o",
+      "selectedDate": "1985-09-10",
+      "selectedTime": "13:08",
+      "id": 2
+    },
+    {
+      "task": "Qui corporifgfhfd",
+      "selectedDate": "1996-01-11",
+      "selectedTime": "06:06",
+      "id": 3
+    },
+    {
+      "task": "assasa",
+      "selectedDate": "2023-05-02",
+      "selectedTime": "14:23",
+      "id": 4
+    }
+  ]
+}
