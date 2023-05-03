@@ -27,3 +27,8 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Login Credentials
+```email : jamell@exapm.com
+   password:1234
+```
