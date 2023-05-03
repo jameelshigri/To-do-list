@@ -29,6 +29,6 @@ npm run build
 ```
 
 ### Login Credentials
-```email : jamell@exapm.com
-   password:1234
-```
+```email : jamell@exapm.com ```
+```password:1234 ```
+
